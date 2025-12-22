@@ -40,7 +40,7 @@ export default function ScrollVideoSection() {
           className="w-full max-w-6xl aspect-video overflow-hidden shadow-2xl "
         >
           <video
-            src="/Version 17 English.mp4" 
+            src="/Noticia Text.mp4" 
             autoPlay
             muted
             loop
