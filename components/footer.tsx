@@ -7,7 +7,7 @@ export default function Footer() {
       <footer className="py-12 text-gray-300 bg-gray-800">
         <div className="px-4 mx-auto text-center max-w-7xl sm:px-6 lg:px-8">
           <p>
-            &copy; {new Date().getFullYear()} [App Name]. All rights reserved.
+            &copy; {new Date().getFullYear()} Niwas.ai. All rights reserved.
           </p>
         </div>
       </footer>

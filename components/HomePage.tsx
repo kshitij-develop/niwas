@@ -94,12 +94,12 @@ export default function HomePage() {
             </div>
 
             {/* Heading */}
-            <h1 className="mt-8 text-3xl font-extrabold leading-tight text-center text-white md:text-5xl">
+            <h1 className=" text-3xl font-extrabold leading-tight text-center text-white md:text-5xl bg-black">
               Experience Our App in Action
             </h1>
 
             {/* --- New Description --- */}
-            <p className="max-w-3xl mx-auto mt-4 text-lg text-center text-gray-200 md:text-xl">
+            <p className="max-w-3xl mx-auto mt-4 text-lg text-center text-gray-200 md:text-xl  ">
               Niwas.ai is your smart property companion. From AI-powered tools
               to streamline tasks, to easy management for every aspect of your
               property, everything you need is just a tap away.
@@ -182,8 +182,8 @@ export default function HomePage() {
 
         {/* --- 3. App Description Section --- */}
         <section className=" md:py-24">
-          <div className="max-w-full px-4 mx-auto text-center sm:px-6 lg:px-8 bg-amber-500 pt-10">
-            <h2 className="flex items-center justify-center gap-3 mb-6 text-3xl font-bold text-gray-900 max-w-5x1 md:text-4xl">
+          <div className="max-w-full px-4 mx-auto text-center sm:px-6 lg:px-8 bg-[#153968] pt-10">
+            <h2 className="flex items-center justify-center gap-3 mb-6 text-3xl font-bold text-black max-w-5x1 md:text-4xl">
               The Future of
               <Image alt="" width={150} src={icon} />
             </h2>

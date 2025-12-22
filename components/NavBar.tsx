@@ -51,14 +51,14 @@ const NavBar = () => {
               /> */}
             </div>
             <div className="">
-              <a
+              <Link
                 href="/"
                 className={`px-5 text-xl ${
                   navDark ? "text-black" : "text-white"
                 }`}
               >
                 Home
-              </a>
+              </Link>
               <Link
                 href="/aboutus"
                 className={`text-xl ${navDark ? "text-black" : "text-white"}`}
@@ -69,7 +69,7 @@ const NavBar = () => {
             <div className="hidden md:block">
               <a
                 href="#"
-                className="px-4 py-2 ml-8 text-sm font-medium text-white bg-yellow-600 rounded-md hover:bg-purple-800"
+                className="px-4 py-2 ml-8 text-sm font-medium text-white bg-[#ffc946] rounded-md hover:bg-yellow-500"
               >
                 Download Now
               </a>

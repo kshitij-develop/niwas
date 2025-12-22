@@ -42,7 +42,7 @@ export default function Section3Toggle() {
     <section className="flex flex-col items-center justify-between w-full gap-10 py-16 md:flex-row md:gap-16">
       {/* ---------- LEFT CONTENT ---------- */}
       <div className="flex flex-col w-full max-w-lg text-left ml-10">
-        <h2 className="text-4xl font-extrabold text-gray-900 md:text-5xl">
+        <h2 className="text-4xl font-extrabold text-black md:text-5xl">
           AI-Automated Rent Collection
         </h2>
         <p className="mt-4 text-lg leading-relaxed text-white">
@@ -51,7 +51,7 @@ export default function Section3Toggle() {
         </p>
 
         {/* CTA */}
-        <button className="px-6 py-2 mt-6 font-medium text-[#022b60] transition-all border border-[#022b60] rounded-full w-fit hover:bg-purple-50">
+        <button className="px-6 py-2 mt-6 font-medium text-white transition-all border border-[#022b60] rounded-full w-fit hover:bg-purple-50">
           Explore workflows
         </button>
 
@@ -61,14 +61,14 @@ export default function Section3Toggle() {
             <div
               key={idx}
               onClick={() => setActiveIndex(idx)}
-              className={`cursor-pointer pl-4 border-l-2 transition-all ${
+              className={` cursor-pointer pl-4 border-l-2 transition-all ${
                 idx === activeIndex
                   ? "border-[#022b60]"
                   : "border-gray-200 hover:border-purple-300"
               }`}
             >
               <h4
-                className={`font-semibold transition-colors ${
+                className={`font-semibold transition-colors text-black ${
                   idx === activeIndex
                     ? "text-[#022b60]"
                     : "text-white hover:[#022b60]/60"
@@ -77,7 +77,7 @@ export default function Section3Toggle() {
                 {f.title}
               </h4>
               {idx === activeIndex && (
-                <p className="mt-1 text-sm text-gray-600">{f.description}</p>
+                <p className="mt-1 text-sm text-white">{f.description}</p>
               )}
             </div>
           ))}
