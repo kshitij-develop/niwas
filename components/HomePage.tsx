@@ -84,7 +84,7 @@ export default function HomePage() {
               <div className="flex  items-center justify-center">
                 <video
                   src="/Dark Blue and White Modern Business Card (5).mp4"
-                  className="object-cover w-full h-screen "
+                  className="object-contain md:object-cover  "
                   autoPlay
                   loop
                   muted
@@ -94,12 +94,12 @@ export default function HomePage() {
             </div>
 
             {/* Heading */}
-            <h1 className=" text-3xl font-extrabold leading-tight text-center text-white md:text-5xl bg-black">
+            <h1 className=" text-xl md:text-4xl font-extrabold leading-tight text-center text-white  bg-black">
               Experience Our App in Action
             </h1>
 
             {/* --- New Description --- */}
-            <p className="max-w-3xl mx-auto mt-4 text-lg text-center text-gray-200 md:text-xl  ">
+            <p className="max-w-3xl mx-auto mt-4 text-lg text-center text-gray-200 md:text-2xl  ">
               Niwas.ai is your smart property companion. From AI-powered tools
               to streamline tasks, to easy management for every aspect of your
               property, everything you need is just a tap away.
@@ -112,7 +112,7 @@ export default function HomePage() {
         {/* --- 2. AI-Powered Management --- */}
         <section className="py-16 md:py-24" id="white-section-1">
           <div className="max-w-full px-4 mx-auto text-center sm:px-6 lg:px-8">
-            <h2 className="flex items-center justify-center gap-3 mb-4 text-3xl font-bold text-gray-900 md:text-4xl">
+            <h2 className="flex items-center justify-center md:gap-3 mb-4 text-3xl font-bold text-gray-900 text-xl md:text-4xl">
               <BrainCircuit className="size-8 text-[#022b60]" />
               Let AI Handle the Hard Work
             </h2>
@@ -124,7 +124,7 @@ export default function HomePage() {
 
             {/* Asymmetric 2x2 Grid */}
             <motion.div
-              className="grid max-w-6xl grid-cols-1 gap-4 pt-10 sm:grid-cols-2 lg:grid-cols-1 md:gap-4 ml-15"
+              className="grid max-w-6xl grid-cols-1 gap-4 pt-10 sm:grid-cols-2 lg:grid-cols-1 md:gap-4 "
               initial="hidden"
               whileInView="show"
               viewport={{ once: true, amount: 0.3 }}
@@ -138,7 +138,7 @@ export default function HomePage() {
               }}
             >
               {/* Screenshot 1 */}
-              <div className="flex justify-center gap-4 item-center ">
+              <div className="flex md:justify-center gap-4 item-center ">
                 {/* Wider Card */}
                 <div className="w-full h-full object-cover">
                   <Section2Card
@@ -181,7 +181,7 @@ export default function HomePage() {
         </section>
 
         {/* --- 3. App Description Section --- */}
-        <section className=" md:py-24">
+        <section className=" ">
           <div className="max-w-full px-4 mx-auto text-center sm:px-6 lg:px-8 bg-[#153968] pt-10">
             <h2 className="flex items-center justify-center gap-3 mb-6 text-3xl font-bold text-black max-w-5x1 md:text-4xl">
               The Future of
@@ -198,7 +198,7 @@ export default function HomePage() {
             </div>
             {/* Responsive Screenshot Grid */}
             <motion.div
-              className="grid grid-cols-1 gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-1 md:gap-12"
+              className="grid grid-cols-1 gap-8 md:mt-8 sm:grid-cols-2 lg:grid-cols-1 md:gap-12"
               initial="hidden"
               whileInView="show"
               viewport={{ once: true, amount: 0.3 }}

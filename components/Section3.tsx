@@ -41,7 +41,7 @@ export default function Section3Toggle() {
   return (
     <section className="flex flex-col items-center justify-between w-full gap-10 py-16 md:flex-row md:gap-16">
       {/* ---------- LEFT CONTENT ---------- */}
-      <div className="flex flex-col w-full max-w-lg text-left ml-10">
+      <div className="flex flex-col w-full max-w-lg text-left md:ml-10">
         <h2 className="text-4xl font-extrabold text-black md:text-5xl">
           AI-Automated Rent Collection
         </h2>
@@ -85,7 +85,7 @@ export default function Section3Toggle() {
       </div>
 
       {/* ---------- RIGHT IMAGE (toggles) ---------- */}
-      <div className="relative w-full max-w-sm md:max-w-md bg-[#f7f8ff] rounded-3xl shadow-md p-3 md:p-4 flex items-center justify-center mr-40">
+      <div className="relative w-full max-w-sm md:max-w-md bg-[#f7f8ff] rounded-3xl shadow-md p-3 md:p-4 flex   justify-center md:mr-40">
         <AnimatePresence mode="wait">
           <motion.div
             key={features[activeIndex].image}
